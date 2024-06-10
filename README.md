@@ -23,23 +23,22 @@
             margin-top: 1rem; /* Espacio de 1rem (aproximadamente 16px) arriba de cada columna */
             text-align: center;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
         }
         .horizontal-column img {
-            width: 150px; /* Ancho fijo para la imagen */
-            height: auto; /* Altura ajustada automáticamente */
-            margin-bottom: 0.5rem; /* Espacio de 0.5rem (aproximadamente 8px) por debajo de la imagen */
+            max-width: 80%; /* La imagen ocupa el 80% del ancho disponible */
+            margin-right: 0.5rem; /* Espacio de 0.5rem (aproximadamente 8px) a la derecha de la imagen */
         }
         .horizontal-column button {
-            padding: 8px 16px; /* Reducción del tamaño del botón */
+            padding: 10px 20px;
             background-color: #007BFF;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 14px; /* Reducción del tamaño de fuente */
-            margin-top: 0.5rem; /* Espacio de 0.5rem (aproximadamente 8px) por encima del botón */
+            font-size: 16px;
+            margin-left: 0.5rem; /* Espacio de 0.5rem (aproximadamente 8px) a la izquierda del botón */
         }
         .horizontal-column button:hover {
             background-color: #0056b3;
@@ -65,3 +64,4 @@
     </div>
 </body>
 </html>
+
